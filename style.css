@@ -16,7 +16,7 @@ body {
 .container {
   max-width: 140rem;
   margin: 0 auto;
-  padding: 8rem;
+  padding: 8rem 11.8rem;
 }
 
 .testimonials-section {
@@ -58,11 +58,6 @@ body {
 /**************************/
 /* review-box */
 /**************************/
-.customer-reviews-box {
-  display: flex;
-  grid-column: 1/-1;
-  justify-self: start;
-}
 
 .rating {
   background-color: rgb(245, 236, 245);
@@ -107,6 +102,34 @@ body {
 /* USERS TESTIMONIALS  */
 /**************************/
 
+.customer-reviews-box {
+  display: flex;
+  gap: 2.4rem;
+  grid-column: 1/-1;
+  justify-self: start;
+}
+
+.review-box {
+  background-color: #502050;
+  border-radius: 11px;
+  padding: 2.4rem;
+  color: hsl(0, 0%, 100%);
+}
+
+.user-box {
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.user-heading {
+  gap: 2rem;
+}
+
+.img {
+  border-radius: 50%;
+  width: 3rem;
+}
 /**************************/
 /* GENERAL  STYLES */
 /**************************/
