@@ -1,4 +1,4 @@
-**************************/
+/* **************************/
 /* GENERAL  SETTING */
 /**************************/
 * {
@@ -12,7 +12,36 @@ body {
   font-size: 62.5%;
   line-height: 1;
 
-  max-width: 144rem;
+  /* max-width: 144rem; */
+}
+
+.container {
+  max-width: 140rem;
+  margin: 0 auto;
+  padding: 8rem;
+}
+
+.testimonials-section {
+  height: 100vh;
+  background-color: hsl(0, 0%, 100%);
+  background-image: url(./images/bg-pattern-top-desktop.svg),
+    url(./images/bg-pattern-bottom-desktop.svg);
+  background-size: cover;
+}
+
+.heading {
+  font-size: 3.6rem;
+  font-weight: 700;
+  color: #502050;
+  letter-spacing: -2.5px;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+}
+
+.heading-text {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: hsl(303, 10%, 53%);
 }
 
 /**************************/
