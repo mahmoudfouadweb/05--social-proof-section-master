@@ -33,6 +33,7 @@ body {
 
 .testimonials-heading {
   grid-column: 3 span;
+  width: 74%;
 }
 .heading {
   font-size: 3.6rem;
